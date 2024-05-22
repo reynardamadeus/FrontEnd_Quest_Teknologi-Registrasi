@@ -1,0 +1,125 @@
+body {
+    background-image: url("img/Register.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #A6F4FF;
+    font-family: 'Passion One', sans-serif;
+}
+
+.background {
+    background-image: url('img/Register.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+
+    width: 900px;
+    height: 800px;
+    position: relative;
+    margin: 6% auto;
+    background-color: rgba(0, 255, 255, 0.7);
+    border-radius: 60px;
+    border: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 0px 40px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    z-index: 100px;
+    margin: 10px 40px;
+}
+
+nav a {
+    font-size: 50px;
+    text-decoration: none;
+}
+
+#active {
+    color: #01303F;
+}
+
+.input-form {
+    display: block;
+    justify-content: center;
+    align-self: center;
+    padding-left: 40px;
+    margin-left: 40px;
+}
+
+.input label {
+    font-size: 28px;
+    margin: 10px 0px;
+}
+
+.input input {
+    height: 50px;
+    width: 737px;
+    background-color: #01303F;
+    border-radius: 60px;
+    font-size: 30px;
+    text-indent: 20px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    border: 0px;
+    outline: none;
+}
+
+input::placeholder {
+    color: #A6F4FF;
+}
+
+#login {
+    height: 700px;
+}
+
+.check-input {
+    display: flex;
+}
+
+.input i {
+    position: absolute;
+    min-width: 100px;
+    text-align: center;
+}
+
+input[type="checkbox"] {
+    outline: 5px solid #A6F4FF;
+    width: 30px;
+    height: 30px;
+    accent-color: transparent;
+}
+
+.agree {
+    font-size: 30px;
+    padding: 0px 20px;
+}
+
+
+.register-btn {
+    font-size: 50px;
+    height: 81px;
+    width: 737px;
+    margin: 10px 0px;
+    color: #01303F;
+    background-color: #A6F4FF;
+    border-radius: 30px;
+    border: none;
+}
+
+.register-btn:hover {
+    color: #A6F4FF;
+    background-color: #01303F;
+}

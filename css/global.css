@@ -1,0 +1,202 @@
+body {
+    background-color: #01303F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    margin: auto;
+    background-color: #01303F;
+}
+
+label.Logo {
+    font-family: 'Lemon', Courier, monospace;
+    background-image: linear-gradient(#FFFF, #01303F);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+}
+
+.navBar a {
+    position: relative;
+    font-size: 20px;
+    font-family: 'Urbanist', 'serif';
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navBar a:hover {
+    font-weight: bold;
+}
+
+#active {
+    font-weight: bold;
+}
+
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+footer {
+    display: block;
+    justify-content: space-between;
+    align-self: center;
+    padding: 20px 100px;
+}
+
+.socMed {
+    width: 100%;
+    text-align: center;
+}
+
+.socMed h1 {
+    font-family: 'Passion One', sans-serif;
+    background-image: linear-gradient(#96FDFB, #FFFF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+
+.socMed i {
+    height: 40px;
+    width: 40px;
+    color: #55C9EF;
+    padding: 15px 20px;
+    margin: 15px 20px;
+}
+
+.wm {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Urbanist', 'serif';
+    font-size: 12px;
+    color: #FFFF;
+    margin-top: 30px;
+}
+
+#landingPage {
+    background-image: url("img/first.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.welcome {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translate(-50vh, 50vh);
+}
+
+/*About Us*/
+.about {
+    display: block;
+    margin: 50px 30px;
+    padding: 50px 30px;
+}
+
+.about h1 {
+    font-family: 'Lemon', serif;
+    font-size: 60px;
+    color: #00D1FF;
+    margin-bottom: 30px;
+}
+
+.about p {
+    font-family: 'League Spartan', sans-serif;
+    color: #D3FAFF;
+    font-size: 30px;
+    margin: 40px 0;
+}
+
+.about img {
+    margin-top: 40px;
+}
+
+.about img.img_1 {
+    float: left;
+}
+
+.about img.img_2 {
+    float: right;
+}
+
+.guideBook {
+    width: 222px;
+    height: 70px;
+    border-radius: 60px;
+    background-image: linear-gradient(90deg, #00D1FF, #00B1D8, #A6F4FF);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #045B8B;
+    float: right;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+
+.head {
+    margin-top: 100px;
+    font-family: 'Lemon', serif;
+    background-image: linear-gradient(#00D1FF, #89EAFF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    text-align: center;
+}
+
+.Sponsor-form {
+    display: block;
+    justify-content: center;
+}
+
+
+.box {
+    width: 700px;
+    height: 300px;
+    border-radius: 30px;
+    color: #55C9EF;
+    font-family: 'Passion One', serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.temp {
+    width: 150px;
+    height: 90px;
+    background-color: gray;
+    text-align: center;
+    margin: 30px 40px;
+}
+
+#plat {
+    background-color: rgba(103, 237, 255, 0.6);
+}
+
+#Sponsor {
+    display: block;
+}
+
+/*Landing page*/
